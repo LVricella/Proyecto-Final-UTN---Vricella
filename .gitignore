@@ -1,0 +1,27 @@
+.DS_Store
+/node_modules
+
+
+.env
+.env.local
+.env.global
+
+# dependencies
+client/node_modules
+client/.pnp
+client/.pnp.js
+
+client/public/images
+
+
+# production
+client/build
+
+# misc
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
